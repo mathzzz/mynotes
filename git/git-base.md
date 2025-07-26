@@ -1,18 +1,18 @@
 
 # 初始化git仓库
-```
+``` shell
 git init
 ```
 
 # 查看git用户，邮箱，编辑器
-```
+```shell
 git config --list
 git config --show-origin --list
 
 ```
 
 # 配置git用户，邮箱，编辑器
-```
+``` shell
 git config user.name zxm
 git config user.email zhuangxm@163.com
 git config --global core.editor vim
@@ -29,9 +29,7 @@ git branch dev
 ```
 
 # 切换到特定分支
-```
-git checkout dev
-```
+```git checkout dev```
 
 
 # 修改并提交到本地分支
